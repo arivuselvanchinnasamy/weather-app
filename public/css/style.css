@@ -1,0 +1,113 @@
+
+body {
+  background: #f2f2f2;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 95px 0;
+	font-weight: 200;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+.form-group {
+  display: block;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-before: 0em;
+  -webkit-padding-start: 0em;
+  -webkit-padding-end: 0em;
+  -webkit-padding-after: 0em;
+  border: 0px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  min-width: -webkit-min-content;
+  padding: 30px;
+}
+.weather
+{
+  background: #fff;
+	position: relative;
+	-webkit-box-shadow: 0px 1px 10px 0px rgba(207,207,207,1);
+	-moz-box-shadow: 0px 1px 10px 0px rgba(207,207,207,1);
+	box-shadow: 0px 1px 10px 0px rgba(207,207,207,1);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;	
+  display: flex;
+  flex-flow: column wrap;
+  overflow: hidden;
+}
+.weather .current
+{
+  position: relative;
+	overflow: hidden;
+	min-height: 200px;
+  background: #3D6AA2;
+  padding: 20px;
+  text-shadow: 1px 1px;
+}
+.weather .current .info
+ {
+  position: relative;
+	overflow: hidden;
+	min-height: 200px;
+	background: #3D6AA2;
+ }
+ .info .city {
+   font-size: 24px;
+   font-weight: 200;
+   position: relative;
+   color: #fff;
+   -webkit-order: 0;
+   -ms-flex-order: 0;
+   order: 0;
+   -webkit-flex: 0 1 auto;
+   -ms-flex: 0 1 auto;
+   flex: 0 1 auto;
+   -webkit-align-self: auto;
+   -ms-flex-item-align: auto;
+   align-self: auto;
+ }
+
+.info .city:after {
+	width: 15px;
+	height: 2px;
+  background: #fff;
+  position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.temp {
+  font-size: 73px;
+  color: #fff;
+	display: block;
+	position: relative;
+	font-weight: bold;
+}
+
+svg {
+	color: #fff;
+	fill: currentColor;
+}
+
+
+.wind svg {
+	width: 18px;
+	height: 18px;
+	margin-top: 20px;
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+
+.wind span {
+  font-size: 13px;
+  color: #fff;
+	text-transform: uppercase;
+}
